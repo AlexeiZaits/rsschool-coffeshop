@@ -1,2 +1,2 @@
 # rsschool-coffeshop
-# https://AlexeiZaits.github.io/rsschool-coffeshop/cv
+# https://AlexeiZaits.github.io/rsschool-coffeshop/
