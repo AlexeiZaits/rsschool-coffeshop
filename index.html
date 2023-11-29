@@ -4,44 +4,54 @@
         <meta charset="UTF-8" >
         <meta name="viewport" content="width=device-width, initial-scale=1.0" >
         <title>home</title>
-        <link rel="stylesheet" href="assets/styles/index.css">
+        <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon.ico">
+        <link rel="stylesheet" href="assets/styles/index.5a82cbb5.css">
+        
         <link rel="icon" type="image/png" sizes="32x32" src="./assets/images/favicon.ico">
     </head>
     <body>
         <header class="container">
-            <nav class="header-nav">
-                <div>
-                    <a href="https://alexeizaits.github.io/rsschool-coffeshop"><img class="logo"  src="./assets/images/logo.png" alt="logo"></a>
-                </div>
-                <div class="header-nav__text">
-                    <a class="header-nav__text-item" href="">Favorite coffee</a>
-                    <a class="header-nav__text-item" href="">About</a>
-                    <a class="header-nav__text-item" href="">Mobile app</a>
-                    <a class="header-nav__text-item" href="#footer">Contact us</a>
-                </div>
-                <a class="link header-nav__link" href="">
-                    <span class="linkButton">Menu</span>
-                    <img class="link__img coffeecup" src="./assets/images/coffee-cup.png" alt="coffee-cup">
-                </a>
-            </nav>
+            <div class="wrapper">
+                <nav class="header-nav">
+                    <div>
+                        <a href="https://alexeizaits.github.io/rsschool-coffeshop"><img class="logo"  src="./assets/images/logo.png" alt="logo"></a>
+                    </div>
+                    <div class="header-nav__text">
+                        <a class="header-nav__text-item inter" style="font-family: inter" href="">Favorite coffee</a>
+                        <a class="header-nav__text-item" href="">About</a>
+                        <a class="header-nav__text-item" href="">Mobile app</a>
+                        <a class="header-nav__text-item" href="#footer">Contact us</a>
+                    </div>
+                    <a class="link header-nav__link" href="">
+                        <span class="linkButton">Menu</span>
+                        <img class="link__img coffeecup" src="./assets/images/coffee-cup.png" alt="coffee-cup">
+                    </a>
+                </nav>
+            </div>
+
         </header>
-        <main>
+        <main style="font-family: inter;">
             <div class="section-list">
-                <section class="enjoy" style="background-image: url(./assets/images/img-hero.jpg);">
-                    <div class="enjoy__list" style="width: 615px;">
-                        <h1 class="enjoy__list-title"><span class="enjoy__list-title__accent">Enjoy</span> premium coffee at our charming cafe</h1>
-                        <p class="enjoy__list-description">With its inviting atmosphere and delicious coffee options, the Coffee House Resource is a popular destination for coffee lovers and those seeking a warm and inviting space to enjoy their favorite beverage.</p>
-                        <button  class="buttons-primary">
-                            <span class="buttons-primary__text">Menu</span>
-                            <img  class="primary-img buttons-primary__img" src="./assets/images/coffee-cup.png" alt="">
-                        </button>
+                <section class="enjoy">
+                    <div class="wrapper">
+                        <div class="enjoy-background" style="background-image: url(./assets/images/img-hero.svg);">
+                            <div class="enjoy__list">
+                                <h1 class="enjoy__list-title"><span class="enjoy__list-title__accent">Enjoy</span> premium coffee at our charming cafe</h1>
+                                <p class="enjoy__list-description">With its inviting atmosphere and delicious coffee options, the Coffee House Resource is a popular destination for coffee lovers and those seeking a warm and inviting space to enjoy their favorite beverage.</p>
+                                <button class="buttons-primary">
+                                    <span class="buttons-primary__text">Menu</span>
+                                    <img   class="primary-img buttons-primary__img" src="./assets/images/coffee-cup.png" alt="">
+                                </button>
+                            </div>
+                        </div>
                     </div>
                     
                 </section>
                 <section class="favourites-coffee">
-                    <h2 class="favourites-coffee__title">Choose your <span class="favourites-coffee__title-accent">favorite</span> coffee</h2>
+                    <div class="wrapper">
+                        <h2 class="favourites-coffee__title">Choose your <span class="favourites-coffee__title-accent">favorite</span> coffee</h2>
                     <div style="display: flex; flex-direction: row; justify-content: space-between; height: 684px;" >
-                        <button class="buttons-arrow" style="margin-top: auto; margin-bottom: auto;">
+                        <button class="buttons-arrow" style="margin-top: 295px; margin-left: 5px;">
                             <img class="arrow-img buttons-arrow__img" style="transform: rotate(180deg)"  src="./assets/images/arrow-dark.png" alt="ww">
                             <img class="arrow-img buttons-arrow__img-hover" style="transform: rotate(180deg)"  src="./assets/images/arrow-white.png" alt="ww">
                         </button>
@@ -57,94 +67,103 @@
                                 </div>
                             </div>
                         </div>
-                        <button class="buttons-arrow" style="margin-top: auto; margin-bottom: auto;">
+                        <button class="buttons-arrow" style="margin-top: 295px; margin-right: 5px;">
                             <img class="arrow-img buttons-arrow__img arrow-img" src="./assets/images/arrow-dark.png" alt="">
                             <img class=" buttons-arrow__img-hover arrow-img" src="./assets/images/arrow-white.png" alt="ww">
                         </button>
                     </div>
-                    <div class="slider-control__card">
+                    <div class="slider-control__card" style="margin-top: 32px;">
                         <div class="slider-control"></div>
                         <div class="slider-control"></div>
                         <div class="slider-control"></div>
                     </div>
+                    </div>
                 </section>
                 <section class="about">
-                    <h2 class="about__title">Resource is <span class="about__title-accent">the perfect and cozy place</span> where you can enjoy a variety of hot beverages, relax, catch up with friends, or get some work done.</h2>
-                    <div class="about__images">
-                        <div class="about__images-list">
-                            <div class="box about__images-list__item1">
-                                <img class="box__img "  src="./assets/images/about-1.png" alt="women">
+                    <div class="wrapper">
+                        <h2 class="about__title">Resource is <span class="about__title-accent">the perfect and cozy place</span> where you can enjoy a variety of hot beverages, relax, catch up with friends, or get some work done.</h2>
+                        <div class="about__images">
+                            <div class="about__images-list">
+                                <div class="box about__images-list__item1">
+                                    <img class="box__img"  src="./assets/images/about-1.svg" alt="women">
+                                </div>
+                                <div class="box about__images-list__item2">
+                                    <img class="box__img "  src="./assets/images/about-2.svg" alt="women">
+                                </div>
                             </div>
-                            <div class="box about__images-list__item2">
-                                <img class="box__img "  src="./assets/images/about-2.png" alt="women">
-                            </div>
-                        </div>
-                        <div class="about__images-list">
-                            <div class="box about__images-list__item3">
-                                <img class="box__img"  src="./assets/images/about-3.png" alt="women">
-                            </div>
-                            <div class="box about__images-list__item4">
-                                <img class="box__img"  src="./assets/images/about-4.png" alt="women">
+                            <div class="about__images-list">
+                                <div class="box about__images-list__item3">
+                                    <img class="box__img"  src="./assets/images/about-3.svg" alt="women">
+                                </div>
+                                <div class="box about__images-list__item4">
+                                    <img class="box__img"  src="./assets/images/about-4.svg" alt="women">
+                                </div>
                             </div>
                         </div>
                     </div>
                 </section>
                 <section class="mobile-app">
-                    <div class="mobile-app__info">
-                        <h2 class="mobile-app__title"><span class="mobile-app__title-accent">Download</span> our apps to start ordering</h2>
-                        <p class="mobile-app__description">Download the Resource app today and experience the comfort of ordering your favorite coffee from wherever you are</p>
-                        <div class="mobile-app__buttons">
-                            <button class="buttons-app mobile-app__button">
-                                <img class="buttons-app__img app-img"  src="./assets/images/apple-dark.png" alt="">
-                                <img class="buttons-app__img-hover app-img"  src="./assets/images/apple-white.png" alt="">
-                                <span class="buttons-app__text"><span style="font-size: 10px;">Available on</span><br>App Store</span>
-                            </button>
-                            <button class="buttons-app mobile-app__button">
-                                <img class="buttons-app__img app-img" src="./assets/images/icon-dark.png" alt="">
-                                <img class="buttons-app__img-hover app-img"  src="./assets/images/icon-white.png" alt="">
-                                <span class="buttons-app__text" style="width: 97px;"><span style="font-size: 10px;">Available on</span><br>Google Play</span>
-                            </button>
+                    <div class="wrapper" style="display: flex; flex-direction: row; justify-content: space-between;">
+                        <div class="mobile-app__info">
+                            <h2 class="mobile-app__title"><span class="mobile-app__title-accent">Download</span> our apps to start ordering</h2>
+                            <p class="mobile-app__description">Download the Resource app today and experience the comfort of ordering your favorite coffee from wherever you are</p>
+                            <div class="mobile-app__buttons">
+                                <button class="buttons-app mobile-app__button">
+                                    <img class="buttons-app__img app-img"  src="./assets/images/apple-dark.png" alt="">
+                                    <img class="buttons-app__img-hover app-img"  src="./assets/images/apple-white.png" alt="">
+                                    <span class="buttons-app__text"><span style="font-size: 10px;">Available on the</span><br>App Store</span>    
+                                </button>
+                                <button class="buttons-app mobile-app__button">
+                                    <img class="buttons-app__img app-img" src="./assets/images/icon-dark.png" alt="">
+                                    <img class="buttons-app__img-hover app-img"  src="./assets/images/icon-white.png" alt="">
+                                    <span class="buttons-app__text" style="width: 97px;"><span style="font-size: 10px;">Available on</span><br>Google Play</span>
+                                </button>
+                            </div>
                         </div>
+                        <div class="mobile-app__screen" style="background-image: url(./assets/images/mobile-screens.png);"></div>
                     </div>
-                    <div class="mobile-app__screen" style="background-image: url(./assets/images/mobile-screens.png);"></div>
                 </section>
             </div>
         </main>
-        <footer class="footer-contacts" id="footer">
-            <div class="footer-contacts__coffetime">
-                <h2 class="footer-contacts__title">Sip, Savor, Smile. <span class="footer-contacts__title-accent">It’s coffee time!</span></h2>
-                <div class="footer-contacts__icons">
-                    <button class="buttons-instagram footer-contacts__icons-item">
-                        <img class="buttons-instagram__img icon-img"  src="./assets/images/twitter.svg" alt="qq">
-                    </button>
-                    <button class="buttons-instagram footer-contacts__icons-item">   
-                        <img class="buttons-instagram__img icon-img"  src="./assets/images/instagram.png" alt="qq">
-                    </button>
-                    <button class="buttons-instagram footer-contacts__icons-item">
-                        <img class="buttons-instagram__img icon-img"  src="./assets/images/facebook.svg" alt="qq">
-                    </button>
-                </div>
-            </div>
-            <div class="footer-contacts__us">
-                <h3 class="footer-contacts__us-title">Contact us</h3>
-                <div class="footer-contacts__us-info">
-                    <div class="adress" style="width: 182px; height: 24px">
-                        <a class="adress__link" href="">
-                            <img  class="link__img link-img" src="./assets/images/pin-alt.png" alt="pin-alt">
-                            <pre class="adress__text">8558&nbsp;Green Rd.,&nbsp;&nbsp;LA</pre>
-                        </a>
+        <footer class="container" id="footer">
+            <div class="wrapper">
+                <div class="footer-contacts">
+                    <div class="footer-contacts__coffetime">
+                        <h2 class="footer-contacts__title">Sip, Savor, Smile. <span class="footer-contacts__title-accent">It’s coffee time!</span></h2>
+                        <div class="footer-contacts__icons">
+                            <button class="buttons-instagram footer-contacts__icons-item">
+                                <img class="buttons-instagram__img icon-img"  src="./assets/images/twitter.svg" alt="qq">
+                            </button>
+                            <button class="buttons-instagram footer-contacts__icons-item">   
+                                <img class="buttons-instagram__img icon-img"  src="./assets/images/instagram.png" alt="qq">
+                            </button>
+                            <button class="buttons-instagram footer-contacts__icons-item">
+                                <img class="buttons-instagram__img icon-img"  src="./assets/images/facebook.svg" alt="qq">
+                            </button>
+                        </div>
                     </div>
-                    <div class="adress" style="width: 175px; height: 24px">
-                        <a class="adress__link" href="">
-                            <img  class="link__img link-img" src="./assets/images/phone.svg" alt="pin-alt">
-                            <pre class="adress__text">+1 (603) 555-0123</pre>
-                        </a>
-                    </div>
-                    <div class="adress" style="width: 262px; height: 24px">
-                        <a class="adress__link" href="">
-                            <img  class="link__img link-img" src="./assets/images/clock.svg" alt="pin-alt">
-                            <pre class="adress__text">Mon-Sat: 9:00 AM – 23:00 PM</pre>
-                        </a>
+                    <div class="footer-contacts__us">
+                        <h3 class="footer-contacts__us-title">Contact us</h3>
+                        <div class="footer-contacts__us-info">
+                            <div class="adress" style="width: 182px; height: 24px">
+                                <a class="adress__link" href="">
+                                    <img  class="link__img link-img" src="./assets/images/pin-alt.png" alt="pin-alt">
+                                    <pre class="adress__text">8558&nbsp;Green Rd.,&nbsp;&nbsp;LA</pre>
+                                </a>
+                            </div>
+                            <div class="adress" style="width: 175px; height: 24px">
+                                <a class="adress__link" href="">
+                                    <img  class="link__img link-img" src="./assets/images/phone.svg" alt="pin-alt">
+                                    <pre class="adress__text">+1 (603) 555-0123</pre>
+                                </a>
+                            </div>
+                            <div class="adress" style="width: 262px; height: 24px">
+                                <a class="adress__link" href="">
+                                    <img  class="link__img link-img" src="./assets/images/clock.svg" alt="pin-alt">
+                                    <pre class="adress__text">Mon-Sat: 9:00 AM – 23:00 PM</pre>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
