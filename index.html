@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" >
         <title>home</title>
         <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon.ico">
-        <link rel="stylesheet" href="assets/styles/index.5a82cbb5.css">
+        <link rel="stylesheet" href="assets/styles/index.1bcff401.css">
         
         <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon.ico">
     </head>
@@ -16,9 +16,9 @@
                     <div>
                         <a href="https://alexeizaits.github.io/rsschool-coffeshop"><img class="logo"  src="./assets/images/logo.png" alt="logo"></a>
                     </div>
-                    <div class="header-nav__text" style="margin-left: 60px;">
+                    <div class="header-nav__text">
                         <a class="header-nav__text-item inter" style="font-family: inter" href="#favorite">Favorite coffee</a>
-                        <a class="header-nav__text-item" href="#about">About</a>
+                        <a class="header-nav__text-item" href="#about" >About</a>
                         <a class="header-nav__text-item" href="#mobile">Mobile app</a>
                         <a class="header-nav__text-item" href="#footer">Contact us</a>
                     </div>
@@ -26,9 +26,11 @@
                         <span class="linkButton">Menu</span>
                         <img class="link__img coffeecup" src="./assets/images/coffee-cup.png" alt="coffee-cup">
                     </a>
+                    <div class="header-nav__burger">
+                        <img src="assets/images/button-icon-burger.svg" alt="">
+                    </div>
                 </nav>
             </div>
-
         </header>
         <main style="font-family: inter;">
             <div class="section-list">
@@ -52,29 +54,31 @@
                 <section id="favorite" class="favourites-coffee">
                     <div class="wrapper">
                         <h2 class="favourites-coffee__title">Choose your <span class="favourites-coffee__title-accent">favorite</span> coffee</h2>
-                    <div style="display: flex; flex-direction: row; justify-content: space-between; height: 684px;" >
-                        <button class="buttons-arrow" style="margin-top: 295px; margin-left: 5px;">
-                            <img class="arrow-img buttons-arrow__img" style="transform: rotate(180deg)"  src="./assets/images/arrow-dark.png" alt="ww">
-                            <img class="arrow-img buttons-arrow__img-hover" style="transform: rotate(180deg)"  src="./assets/images/arrow-white.png" alt="ww">
-                        </button>
-                        <div class="wrapper">
-                            <div class="slider">
-                                <div class="slider__img">
-                                    <img src="./assets/images/coffee-slider-1.png" alt="coffee-slider">
-                                </div>
-                                <div class="slider__text">
-                                    <h3 class="slider__text-title">S’mores Frappuccino</h3>
-                                    <p class="slider__text-description">This new drink takes an espresso and mixes it with brown sugar and cinnamon before being topped with oat milk..</p>
-                                    <p class="slider__text-price">$5.50</p>
-                                </div>
+                    <div class="favourites-coffee__slider" >
+                        <div class="favourites-coffee__arrows">
+                            <button class="buttons-arrow" style="margin-top: 330px; margin-left: 5px;">
+                                <img class="arrow-img buttons-arrow__img" style="transform: rotate(180deg)"  src="./assets/images/arrow-dark.png" alt="ww">
+                                <img class="arrow-img buttons-arrow__img-hover" style="transform: rotate(180deg)"  src="./assets/images/arrow-white.png" alt="ww">
+                            </button>
+                        </div>
+                        <div class="slider">
+                            <div class="slider__img">
+                                <img class="slider__img "  src="./assets/images/coffee-slider-1.png" alt="coffee-slider">
+                            </div>
+                            <div class="slider__text">
+                                <h3 class="slider__text-title">S’mores Frappuccino</h3>
+                                <p class="slider__text-description">This new drink takes an espresso and mixes it with brown sugar and cinnamon before being topped with oat milk..</p>
+                                <p class="slider__text-price">$5.50</p>
                             </div>
                         </div>
-                        <button class="buttons-arrow" style="margin-top: 295px; margin-right: 5px;">
-                            <img class="arrow-img buttons-arrow__img arrow-img" src="./assets/images/arrow-dark.png" alt="">
-                            <img class=" buttons-arrow__img-hover arrow-img" src="./assets/images/arrow-white.png" alt="ww">
-                        </button>
+                        <div class="favourites-coffee__arrows">
+                            <button class="buttons-arrow" style="margin-top: 330px; margin-right: 5px;">
+                                <img class="arrow-img buttons-arrow__img arrow-img" src="./assets/images/arrow-dark.png" alt="">
+                                <img class=" buttons-arrow__img-hover arrow-img" src="./assets/images/arrow-white.png" alt="ww">
+                            </button>
+                        </div>
                     </div>
-                    <div class="slider-control__card" style="margin-top: 32px;">
+                    <div class="slider-control__card">
                         <div class="slider-control"></div>
                         <div class="slider-control"></div>
                         <div class="slider-control"></div>
@@ -104,8 +108,8 @@
                         </div>
                     </div>
                 </section>
-                <section id="mobile" class="mobile-app">
-                    <div class="wrapper" style="display: flex; flex-direction: row; justify-content: space-between;">
+                <section id="mobile">
+                    <div class="wrapper mobile-app">
                         <div class="mobile-app__info">
                             <h2 class="mobile-app__title"><span class="mobile-app__title-accent">Download</span> our apps to start ordering</h2>
                             <p class="mobile-app__description">Download the Resource app today and experience the comfort of ordering your favorite coffee from wherever you are</p>
@@ -122,7 +126,10 @@
                                 </button>
                             </div>
                         </div>
-                        <div class="mobile-app__screen" style="background-image: url(./assets/images/mobile-screens.png);"></div>
+                        <div class="mobile-app__screen">
+                            <!-- style="background-image: url(./assets/images/mobile-screens.png); -->
+                            <img class="mobile-app__screen-img" src="./assets/images/mobile-screens.png" alt="">
+                        </div>
                     </div>
                 </section>
             </div>
